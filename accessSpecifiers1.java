@@ -13,11 +13,8 @@ public class accessSpecifiers1 {
 	public static void main(String[] args) {
 		//default
 		System.out.println("Dafault Access Specifier");
-		defAccessSpecifier obj = new defAccessSpecifier(); 		  
+		defAccessSpecifier obj = new defAccessSpecifier(); 		// how to access non - sub class , obj is the name of themethod and it doesn't matter wheather it changes or not  
 		obj.display(); 
 
 	}
 }
-
-
-
